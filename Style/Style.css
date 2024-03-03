@@ -1,0 +1,139 @@
+*{
+    text-decoration: none;
+    list-style: none;
+}
+.header {
+    background-color: darkseagreen;
+    color: aliceblue;
+    display: flex;
+    margin: auto;
+    display: flex;
+
+}
+.header.headerlinks a{
+    display: flex;
+}
+
+ul :hover{
+color: black !important;
+text-decoration:underline;
+text-decoration-color: rgb(22, 36, 2);
+/* rotate: 2deg; */
+transform: rotate(360deg);
+
+-webkit-transform:scale(1.1);
+background-color: white;
+
+
+}
+
+
+h2{
+    margin-top: 35px;
+}
+h1 {
+    color: green;
+    font-size: 50px;
+
+
+}
+h1 :hover{
+    color: red !important;
+
+    
+}
+
+.title {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top: 200px;
+    left: 50px;
+}
+.title  :hover{
+    rotate: 2deg;
+    -webkit-transform:scale(1.0);
+    
+
+}
+
+#centerpage {
+    text-align: center;
+    font-size: 50px;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+
+button {
+    border: none;
+    padding: 10px;
+    margin: 16px 8px;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 16px;
+    width: 250px;
+    font-weight: bolder;
+    border-radius: 50px;
+}
+.cards :hover{
+    
+    -webkit-transform:scale(1.1);
+
+}
+
+.card1 {
+    background-color: white;
+    width: 20%;
+    display: block;
+    box-shadow: 0 4px 8px 0 rgba(red, green, blue, alpha);
+    padding: 2px 16px;
+    margin-right: 5%;
+    margin-left: 5%;
+    border-radius: 5px;
+    text-align:center;
+    float: left;
+    box-shadow: 1px;
+    
+}
+
+.card2 {
+    background-color: white;
+    width: 20%;
+    display: inline-block;
+    box-shadow: 0 4px 8px 0 rgba(red, green, blue, alpha);
+    padding: 2px 16px;
+    border-radius: 5px;
+    text-align: center;
+    margin-left: 180px;
+    
+}
+
+.card3 {
+    background-color: white;
+    width: 20%;
+    display: block;
+    box-shadow: 0 4px 8px 0 rgba(red, green, blue, alpha);
+    margin-right: 5%;
+    padding: 20px;
+    border-radius: 5px;
+    margin-left: 50px;
+    float: right;
+}
+
+
+.links {
+    display: inline-block;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    width: auto;
+    height: auto;
+    margin: 10px;
+}
+
+#img {
+    float: right;
+    width: 600px;
+}
